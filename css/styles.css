@@ -246,6 +246,7 @@ input[type=text]{
     padding: 10px 50px;
     background-color: var(--theme-blue-80);
     color: #f0f0f0;
+    border: none;
   }
   #thankyou{
       display:none;

@@ -174,9 +174,16 @@ width:50%;
 }
 p.definition{
     color: #ffffff;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     font-weight: 600;
     line-height: 1.4;  
+}
+.quote{
+    background-color: var(--theme-brown-80);
+    padding: 2rem;
+}
+.quote p#attribution{
+    font-weight: 600;
 }
 .word-title{
     color:#ffffff;
@@ -187,7 +194,7 @@ p.definition{
 .word-phonetic p{
     color: #ffffff;
     margin:10px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 .definition-right{
 width:50%;
@@ -245,7 +252,7 @@ align-items: center;
   }
   .signup{
     color: #ffffff;
-    padding: 2rem 0;
+    padding: 1rem 0;
   }
   .form-row{
       display:flex;

@@ -24,38 +24,38 @@ Vue.use(VueMeta);
 
 new Vue({
     
-  el: '#home-page',
+  el: '#editable',
 
   data () {
   
     return {
-      facultyData: [],
+      mentorData: [],
       faqData:[],
       showMessage: true,
       index_active:0,
-      apiURL: 'https://directus.thegovlab.com/odpl_course',
+      apiURL: 'https://directus.thegovlab.com/odpl-incubator',
     }
   },
 
   created: function created() {
 
-    this.fetchFaculty();
+    this.fetchMentor();
     this.toggleMessage();
     this.fetchQuestions();
   },
 
 
   methods: {
-    fetchFaculty() {
+    fetchMentor() {
       self = this;
       const client = new DirectusSDK({
         url: "https://directus.thegovlab.com/",
-        project: "odpl_course",
+        project: "odpl-incubator",
         storage: window.localStorage
       });
 
       client.getItems(
-  'faculty',
+  'mentors',
   {
     fields: ['*.*']
   }
@@ -63,14 +63,14 @@ new Vue({
 
   data.data.sort(function(a, b) {
     
-    var textA = a.name.toUpperCase();
-    var textB = b.name.toUpperCase();
+    var textA = a.last_name.toUpperCase();
+    var textB = b.last_name.toUpperCase();
     return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
 
   
 });
   console.log(data)
-  self.facultyData = data.data;
+  self.mentorData = data.data;
 })
 
 .catch(error => console.error(error));
@@ -79,7 +79,7 @@ new Vue({
       self = this;
       const client = new DirectusSDK({
         url: "https://directus.thegovlab.com/",
-        project: "odpl_course",
+        project: "odpl-incubator",
         storage: window.localStorage
       });
 

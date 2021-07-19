@@ -58,7 +58,8 @@
         <p class="definition">A program that helps public intrapreneurs within cities around the world to develop their
           data innovation ideas into reality by providing dedicated support across a 6 month period.</p>
         <div class="quote">
-          <p id="quote-text">"I love the mission of the incubator. If this program could formalize a way for municipal innovators to
+          <p id="quote-text">"I love the mission of the incubator. If this program could formalize a way for municipal
+            innovators to
             overcome bureaucratic inertia, it would be a global game changer."</p>
           <p id="attribution">- Naysan Saran, Co-founder and CEO CANN Forecast</p>
         </div>
@@ -298,19 +299,42 @@
       </div>
     </div>
   </div>
+  <div id="editable">
+    <div class="partners-section">
+      <h1>Council of Mentors</h1>
+      <p>Our Council of Mentors are experts from around the world in domains such as product management, performance
+        management, data program development, data strategy, intrapreneurship and public sector problem solving. Mentors
+        will be available to program participants throughout their six months with the City Incubator. This is our
+        preliminary group of mentors; recruitment of additional mentors is taking place over the summer.</p>
+      <div class="team">
+        <div v-for="(mentor,index) in mentorData.reverse()" class="team-image team-50">
+          <div class="square">
+            <img v-bind:src="mentor.headshot.data.thumbnails[3].url">
+          </div>
+          <h4>{{mentor.first_name}} {{mentor.last_name}}</h4>
+          <h5>{{mentor.affiliation}}</h5>
+        </div>
+      </div>
+    </div>
+    <div class="faq-section">
+      <h1>Frequently Asked Questions</h1>
+      <p>If after reading the FAQs you have additional questions please contact <a
+          href="mailto:adrienne@thegovlab.org">adrienne@thegovlab.org</a>. All answers to questions sent via email will
+        be
+        added to the FAQ as a resource for all interested program participants.</p>
+        <div id="faq" class="text-box">
 
-  <div class="partners-section">
-    <h1>Council of Mentors</h1>
-    <p>Our Council of Mentors are experts from around the world in domains such as product management, performance
-      management, data program development, data strategy, intrapreneurship and public sector problem solving. Mentors
-      will be available to program participants throughout their six months with the City Incubator. This is our
-      preliminary group of mentors; recruitment of additional mentors is taking place over the summer.</p>
-  </div>
-  <div class="faq-section">
-    <h1>Frequently Asked Questions</h1>
-    <p>If after reading the FAQs you have additional questions please contact <a
-        href="mailto:adrienne@thegovlab.org">adrienne@thegovlab.org</a>. All answers to questions sent via email will be
-      added to the FAQ as a resource for all interested program participants.</p>
+          <div class="faqs">
+            <div v-for="(question,index) in faqData">
+              <div @click="toggleMessage(index)" v-bind:class="{ active: showMessage && index_active==index }"
+                class="accordion"><span id="bold">{{index+1}}.&nbsp{{question.question}}</span><i class="material-icons down"></i></div>
+              <div v-if="showMessage && index_active==index" class="panel" v-html="question.answer">
+    
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
   </div>
 </body>
 

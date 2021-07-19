@@ -30,10 +30,10 @@ body{
     background-image: url("../img/hero.jpg");
     background-blend-mode: multiply;
     background-color: var(--theme-blue-80); 
-    height:80vh;
+    height:100%;
     background-size: cover;
     background-position: center top;
-    padding: 2rem 8rem;
+    padding: 8rem 8rem;
 }
 .hero .title-section{
     color: #ffffff;
@@ -71,6 +71,7 @@ h1 span#blue-background{
     display: flex;
     justify-content: flex-end;
 }
+
 .description-section p{
     width: 50%;
     color: #ffffff;
@@ -92,10 +93,10 @@ h1 span#blue-background{
     background-image: url("../img/definition-hero.jpg");
     background-blend-mode: multiply;
     background-color: var(--theme-brown-80); 
-    height:80vh;
+    height:100%;
     background-size: cover;
     background-position: center bottom;
-    padding: 4rem 8rem;
+    padding: 8rem 8rem;
     display:flex;
     flex-direction: row;
 }
@@ -179,6 +180,14 @@ p.definition{
 }
 .word-title{
     color:#ffffff;
+}
+.word-title h1{
+    margin:0;
+}
+.word-phonetic p{
+    color: #ffffff;
+    margin:10px;
+    font-size: 1.2rem;
 }
 .definition-right{
 width:50%;

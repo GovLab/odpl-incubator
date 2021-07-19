@@ -384,6 +384,9 @@ input[type=text]{
     font-size: 1.1rem;
     line-height: 1.4;
 }
+.application-left li{
+    margin: 1rem 0;
+}
 .application-right{
     background-image: url("../img/webinar.jpg");
     background-blend-mode: multiply;

@@ -3,6 +3,7 @@
     --theme-blue-80: #113b51c4;
     --theme-brown-80: #472f09b6;
     --theme-light-blue: #05BFFF;
+    --theme-yellow: #dee035;
     --white: rgba(255,255,255);
   }
 
@@ -71,7 +72,15 @@ h1 span#blue-background{
     display: flex;
     justify-content: flex-end;
 }
-
+a.highlight {
+    font-size: 2rem;
+    color: #ffffff;
+}
+a.highlight:hover {
+    font-size: 2rem;
+    color: var(--theme-yellow);
+    transition: all .6s ease;
+}
 .description-section p{
     width: 50%;
     color: #ffffff;

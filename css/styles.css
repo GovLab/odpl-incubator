@@ -545,20 +545,32 @@ input[type=text]{
     color: #3d3d3d;
 }
 .partner-logos{
-    display:flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+    display: flex;
+    flex-direction: row ;
+    max-width: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
 }
 .partner-item {
-    width: 50%;
+    -webkit-flex: 0 0 50%;
+    -ms-flex: 0 0  50%;
+    flex: 0 0  50%;
+    max-width:  50%;
+    height: 300px;
     display:flex;
-    padding: 1rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+.partner-item p{
+    padding: 0 2rem;
 }
 .partner-item img{
     height: 50px;

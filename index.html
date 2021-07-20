@@ -35,7 +35,7 @@
     <nav id="navbar">
       <ul id="mainNav">
         <li class="active"><a href="#">Home</a></li>
-        <li ><a href="http://opendatapolicylab.org">Back to Open Data Policy Lab</a></li>
+        <li ><a href="http://opendatapolicylab.org">Open Data Policy Lab</a></li>
         <li><a href="https://opendatapolicylab.org/team/">Team</a></li>
       </ul>
     </nav>
@@ -125,7 +125,7 @@
     <div class="row-cust mt-5">
       <a target="_blank" class="column-3-timeline-5">
         <div class="dot-class"> <span class="dot"></span></div>
-        <p style="margin-right: 1rem;"><span class="text-green"><b>July 20th</b></span></br>Application Opens
+        <p style="margin-right: 1rem;"><span class="text-green"><b>July 21st</b></span></br>Application Opens
         </p>
       </a>
       <a target="_blank" class="column-3-timeline-5">
@@ -324,7 +324,7 @@
           <div class="square">
             <img v-bind:src="mentor.headshot.data.thumbnails[3].url">
           </div>
-          <h4>{{mentor.first_name}} {{mentor.last_name}}</h4>
+          <h4><a target="_blank" :href="mentor.linkedin">{{mentor.first_name}} {{mentor.last_name}}</a></h4>
           <h5>{{mentor.affiliation}}</h5>
         </div>
       </div>

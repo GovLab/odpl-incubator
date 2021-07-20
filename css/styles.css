@@ -178,11 +178,11 @@ h1 span#blue-background{
     justify-content: flex-end;
 }
 a.highlight {
-    font-size: 2rem;
+
     color: #ffffff;
 }
 a.highlight:hover {
-    font-size: 2rem;
+ 
     color: var(--theme-yellow);
     transition: all .6s ease;
 }
@@ -612,6 +612,11 @@ input[type=text]{
     height: 300px;
   }
 .team-image h4{
+    font-size: 1.2rem;
+  color: var(--theme-blue);
+  margin-bottom:0;
+}
+.team-image h4 a{
     font-size: 1.2rem;
   color: var(--theme-blue);
   margin-bottom:0;

@@ -33,12 +33,13 @@ new Vue({
       faqData:[],
       showMessage: true,
       index_active:0,
+      alertData: [],
       apiURL: 'https://directus.thegovlab.com/odpl-incubator',
     }
   },
 
   created: function created() {
-
+    this.fetchAlerts();
     this.fetchMentor();
     this.toggleMessage();
     this.fetchQuestions();
@@ -46,6 +47,26 @@ new Vue({
 
 
   methods: {
+    fetchAlerts() {
+      self = this;
+      const client = new DirectusSDK({
+        url: "https://directus.thegovlab.com/",
+        project: "odpl-incubator",
+        storage: window.localStorage
+      });
+
+      client.getItems(
+  'alert_banner',
+  {
+    fields: ['*.*']
+  }
+).then(data => {
+  self.alertData = data.data;
+
+})
+
+.catch(error => console.error(error));
+    },
     fetchMentor() {
       self = this;
       const client = new DirectusSDK({

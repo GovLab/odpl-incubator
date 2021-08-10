@@ -33,6 +33,16 @@
 </head>
 
 <body>
+  <div id="editable">
+  <div id="alert-banner" v-for="alert in alertData" v-if="alert.live == true"
+  class="alert-section">
+  <h3>{{alert.alert_title}}</h3>
+  <div class="alert-description" v-html="alert.description"></div>
+  <div class="main-button">
+    <a v-if="alert.link" target="_blank" :href="alert.link">{{alert.button_text}}</a>
+    <a id="close-button" onclick="close_alert()">Close</a>
+  </div>
+</div>
   <div class="hero">
     <div class="header-logo">
       <a href="http://thegovlab.org" target="_blank">
@@ -342,7 +352,7 @@
 
     </div>
   </div>
-  <div id="editable">
+  
     <div class="partners-section">
       <h1>Council of Mentors</h1>
       <p>Our Council of Mentors are experts from around the world in domains such as product management, performance
@@ -384,7 +394,12 @@
 
 
 
-
+<script>
+  function close_alert() {
+    var x = document.getElementById("alert-banner");
+    x.style.display = "none";
+  }
+</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
 </script>
 <script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>

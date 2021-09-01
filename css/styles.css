@@ -1,6 +1,6 @@
 :root {
     --theme-blue: #113B51;
-    --theme-blue-80: #113b51c4;
+    --theme-blue-80: #113b51f3;
     --theme-brown-80: #472f09b6;
     --theme-light-blue: #05BFFF;
     --theme-yellow: #dee035;
@@ -322,7 +322,7 @@ a.highlight:hover {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 2rem 8rem;
+    padding: 2rem 15rem;
 }
 
 .benefit-left{
@@ -333,7 +333,7 @@ width:50%;
 .benefit-right{
     display:flex;
 flex-direction: column;
-width:50%;
+width:100%;
 }
 .benefit-statement{
     display: flex;
@@ -354,7 +354,7 @@ width:50%;
     color: #ffffff;
 }
 .benefit-icon {
-    width: 10%;
+    width: 5%;
 }
 .benefit-icon img{
     height:50px;
@@ -362,12 +362,12 @@ width:50%;
     border-radius: 50%;
 }
 .benefit-text{
-    width: 90%;
+    width: 95%;
     color: #ffffff;
     padding: 0 1rem;
 }
 .benefit-text p{
-    font-weight: 600;
+    font-weight: 300;
     font-size: 1.2rem;
 }
 p.definition{

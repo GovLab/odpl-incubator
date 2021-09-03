@@ -109,6 +109,27 @@ body{
     margin:0;
     font-family: 'proxima-nova', sans-serif;
 }
+.separator{
+    height: 8vh;
+    background-color: var(--theme-blue);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.separator h2{
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.convenings{
+    padding: 2rem 15rem;
+    color: var(--theme-blue);
+}
+.convenings h2{
+    color: var(--theme-blue);
+    text-transform: uppercase;
+    font-weight: 400;
+}
 .hero{
     background-image: url("../img/hero.jpg");
     background-blend-mode: multiply;
@@ -362,7 +383,7 @@ width:100%;
     border-radius: 50%;
 }
 .benefit-text{
-    width: 95%;
+    width: 100%;
     color: #ffffff;
     padding: 0 1rem;
 }
@@ -863,6 +884,9 @@ width:50%;
     content: 'keyboard_arrow_up';
 }
 @media screen and (min-width: 320px) and (max-width: 768px){
+    .convenings{
+        padding: 2rem 1rem;
+    }
     .description-section p{
         width: 100%;
     }

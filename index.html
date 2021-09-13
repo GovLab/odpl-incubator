@@ -34,184 +34,192 @@
 
 <body>
   <div id="editable">
-  <div id="alert-banner" v-for="alert in alertData" v-if="alert.live == true"
-  class="alert-section">
-  <h3>{{alert.alert_title}}</h3>
-  <div class="alert-description" v-html="alert.description"></div>
-  <div class="main-button">
-    <a v-if="alert.link" target="_blank" :href="alert.link">{{alert.button_text}}</a>
-    <a id="close-button" onclick="close_alert()">Close</a>
-  </div>
-</div>
-  <div class="hero">
-    <div class="header-logo">
-      <a href="http://thegovlab.org" target="_blank">
-        <img src="img/the-govlab-logo-white.svg" alt="The GovLab">
-      </a>
-      <a href="http://opendatapolicylab.org" target="_blank">
-        <img id="odpl-logo" src="img/open-data-policy-lab-logo-horizontal-white.svg">
-      </a>
+    <div id="alert-banner" v-for="alert in alertData" v-if="alert.live == true" class="alert-section">
+      <h3>{{alert.alert_title}}</h3>
+      <div class="alert-description" v-html="alert.description"></div>
+      <div class="main-button">
+        <a v-if="alert.link" target="_blank" :href="alert.link">{{alert.button_text}}</a>
+        <a id="close-button" onclick="close_alert()">Close</a>
+      </div>
     </div>
-    <nav id="navbar">
-      <ul id="mainNav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="http://opendatapolicylab.org">Open Data Policy Lab</a></li>
-        <li><a href="https://opendatapolicylab.org/team/">Team</a></li>
+    <div class="hero">
+      <div class="header-logo">
+        <a href="http://thegovlab.org" target="_blank">
+          <img src="img/the-govlab-logo-white.svg" alt="The GovLab">
+        </a>
+        <a href="http://opendatapolicylab.org" target="_blank">
+          <img id="odpl-logo" src="img/open-data-policy-lab-logo-horizontal-white.svg">
+        </a>
+      </div>
+      <nav id="navbar">
+        <ul id="mainNav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="http://opendatapolicylab.org">Open Data Policy Lab</a></li>
+          <li><a href="press/index.html">Press</a></li>
+          <li><a href="https://opendatapolicylab.org/team/">Team</a></li>
+        </ul>
+      </nav>
+      <div class="title-section">
+        <h1>Open Data Policy Lab:<br><span id="blue-background">City Incubator&nbsp</span></h1>
+        <p><i>Reimagining institutions, investing in<br> innovators, prioritizing data infrastructure</i></p>
+      </div>
+      <div class="description-section">
+
+        <p><span id="blue-background">Today, <a target="_blank" class="highlight"
+              href="https://www.weforum.org/agenda/2020/11/global-continent-urban-population-urbanisation-percent/#:~:text=To%20celebrate%20Cities%20Day%2C%20the,up%20from%2041.3%25%20in%201950.">56%</a>
+            of the global population lives in cities.</span> This number is expected
+          to increase to <a class="highlight" target="_blank"
+            href="https://www.un.org/development/desa/en/news/population/2018-revision-of-world-urbanization-prospects.html">68%</a>
+          by 2050. Our
+          city governments are the stewards of valuable data, data systems and data policies. <span
+            id="blue-background">How might we better equip
+            our cities to solve problems with data?</span></p>
+      </div>
+    </div>
+    <div class="definition-section">
+      <div class="definition-left">
+        <div class="word-title">
+          <h1>Cit&bull;y In&bull;cu&bull;ba&bull;tor</h1>
+        </div>
+        <div class="word-phonetic">
+          <p>/'sidē'iNGkyəˌbādər/</p>
+          <p class="definition">A program that helps public intrapreneurs within cities around the world to develop
+            their
+            data innovation ideas into reality by providing dedicated support across a 6 month period.</p>
+          <div class="quote">
+            <p id="quote-text">"I love the mission of the incubator. If this program could formalize a way for municipal
+              innovators to
+              overcome bureaucratic inertia, it would be a global game changer."</p>
+            <p id="attribution">- Naysan Saran, Co-founder and CEO CANN Forecast</p>
+          </div>
+        </div>
+        <div class="signup">
+
+          <p>Join the Data Stewards Network listserv for a weekly digest and updates on the City Incubator deadlines,
+            announcements and programming.</p>
+          <script type="text/javascript">var submitted = false;</script>
+          <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {confirm()}">
+          </iframe>
+          <form method="post" action="https://thegovlab.us6.list-manage.com/subscribe/post?u=1a990feb5c&id=bc6d09925f"
+            target="_blank">
+            <div style="position: absolute; left: -5000px;"><input type="text" name="b_1a990feb5c_d90a01c7ff"
+                tabindex="-1" value=""></div>
+
+            <div class="form-row">
+              <input type="text" placeholder="EMAIL ADDRESS*" name="entry.865215628" aria-hidden=”true”>
+              <button name="subscribe form button" class="form-button" type="submit" aria-hidden=”true”>Sign Up for
+                Updates</button>
+            </div>
+          </form>
+          <p id="thankyou">Thank you for your submission!</p>
+        </div>
+      </div>
+      <div class="definition-right">
+        <div class="definition-grid">
+          <div class="definition-number">
+            <div class="border">
+              <h1>10</h1>
+              <p>Cities</p>
+            </div>
+          </div>
+          <div class="definition-number">
+            <div class="border">
+              <h1>10</h1>
+              <p>Data Innovations</p>
+            </div>
+          </div>
+          <div class="definition-number">
+            <div class="border">
+              <h1>10</h1>
+              <p>Intrapreneurs</p>
+            </div>
+          </div>
+          <div class="definition-number">
+            <div class="border">
+              <h1>10</h1>
+              <p>Different Countries</p>
+            </div>
+          </div>
+        </div>
+        <p><span id="blue-background">Millions of residents' lives improved</span></p>
+      </div>
+    </div>
+
+    <div class="timeline">
+      <h1>2021-2022 Timeline</h1>
+      <div class="row-cust mt-5">
+        <a target="_blank" class="column-3-timeline-5">
+          <div class="dot-class"> <span class="dot"></span></div>
+          <p style="margin-right: 1rem;"><span class="text-green"><b>July 21st</b></span></br>Application Opens
+          </p>
+        </a>
+        <a target="_blank" class="column-3-timeline-5">
+          <div class="dot-class"> <span class="dot"></span></div>
+          <p style="margin-right: 1rem;"><span class="text-green"><b>August 6th</b></span></br>Early applications
+            deadline
+            for feedback
+          </p>
+        </a>
+        <a target="_blank" class="column-3-timeline-5">
+          <div class="dot-class"> <span class="dot"></span></div>
+          <p style="margin-right: 1rem;"><span class="text-green"><b>August 13th</b></span></br>Open Data Policy Lab
+            team
+            will provide feedback to early deadline applicants
+          </p>
+        </a>
+        <a target="_blank" class="column-3-timeline-5">
+          <div class="dot-class"> <span class="dot"></span></div>
+          <p style="margin-right: 1rem;"><span class="text-green"><b>September 10th</b></span></br>Final application
+            deadline
+          </p>
+        </a>
+        <a target="_blank" class="column-3-timeline-5">
+          <div class="dot-class"> <span class="dot"></span></div>
+          <p style="margin-right: 1rem;"><span class="text-green"><b>September 13th</b></span></br>Announcement of
+            program
+            participants
+          </p>
+        </a>
+        <a target="_blank" class="column-3-timeline-5">
+          <div class="dot-class"> <span class="dot"></span></div>
+          <p style="margin-right: 1rem;"><span class="text-green"><b>September 20th</b></span></br>Programming begins
+          </p>
+        </a>
+        <a target="_blank" class="column-3-timeline-5 last">
+          <div class="dot-class"> <span class="dot"></span></div>
+          <p style="margin-right: 1rem;"><span class="text-green"><b>March 20th</b></span></br>Program Concludes
+          </p>
+        </a>
+
+      </div>
+    </div>
+    <div class="separator">
+      <h2>Programmatic Offerings</h2>
+    </div>
+    <div class="convenings">
+      <h2>Dedicated Convenings</h2>
+      <p>
+      <ul>
+        <li><b>Kickoff Workshop: September 23rd</b><br>
+          Setting the stage, meeting each other, and “virtual mindset sprint” for a data innovation activity. </li><br>
+
+        <li><b>Meet the Mentors Workshop: November</b><br>
+          A meet-and-greet event to identify additional opportunities to leverage the expertise of mentors moving
+          forward.</li><br>
+        <li>
+          <b>Final Presentation: March 24th</b><br>
+          Presenting participants’ data innovations to a community of leaders in the civic technology and data
+          innovation fields. A pitch training and practice session will be scheduled to prepare for this in February.
+        </li>
       </ul>
-    </nav>
-    <div class="title-section">
-      <h1>Open Data Policy Lab:<br><span id="blue-background">City Incubator&nbsp</span></h1>
-      <p><i>Reimagining institutions, investing in<br> innovators, prioritizing data infrastructure</i></p>
+      </p>
     </div>
-    <div class="description-section">
-
-      <p><span id="blue-background">Today, <a target="_blank" class="highlight"
-            href="https://www.weforum.org/agenda/2020/11/global-continent-urban-population-urbanisation-percent/#:~:text=To%20celebrate%20Cities%20Day%2C%20the,up%20from%2041.3%25%20in%201950.">56%</a>
-          of the global population lives in cities.</span> This number is expected
-        to increase to <a class="highlight" target="_blank"
-          href="https://www.un.org/development/desa/en/news/population/2018-revision-of-world-urbanization-prospects.html">68%</a>
-        by 2050. Our
-        city governments are the stewards of valuable data, data systems and data policies. <span
-          id="blue-background">How might we better equip
-          our cities to solve problems with data?</span></p>
+    <div class="separator">
+      <h2>Ongoing Programming</h2>
     </div>
-  </div>
-  <div class="definition-section">
-    <div class="definition-left">
-      <div class="word-title">
-        <h1>Cit&bull;y In&bull;cu&bull;ba&bull;tor</h1>
-      </div>
-      <div class="word-phonetic">
-        <p>/'sidē'iNGkyəˌbādər/</p>
-        <p class="definition">A program that helps public intrapreneurs within cities around the world to develop their
-          data innovation ideas into reality by providing dedicated support across a 6 month period.</p>
-        <div class="quote">
-          <p id="quote-text">"I love the mission of the incubator. If this program could formalize a way for municipal
-            innovators to
-            overcome bureaucratic inertia, it would be a global game changer."</p>
-          <p id="attribution">- Naysan Saran, Co-founder and CEO CANN Forecast</p>
-        </div>
-      </div>
-      <div class="signup">
+    <div class="benefits-section">
 
-        <p>Join the Data Stewards Network listserv for a weekly digest and updates on the City Incubator deadlines,
-          announcements and programming.</p>
-        <script type="text/javascript">var submitted = false;</script>
-        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {confirm()}">
-        </iframe>
-        <form method="post" action="https://thegovlab.us6.list-manage.com/subscribe/post?u=1a990feb5c&id=bc6d09925f"
-          target="_blank">
-          <div style="position: absolute; left: -5000px;"><input type="text" name="b_1a990feb5c_d90a01c7ff"
-              tabindex="-1" value=""></div>
-
-          <div class="form-row">
-            <input type="text" placeholder="EMAIL ADDRESS*" name="entry.865215628" aria-hidden=”true”>
-            <button name="subscribe form button" class="form-button" type="submit" aria-hidden=”true”>Sign Up for
-              Updates</button>
-          </div>
-        </form>
-        <p id="thankyou">Thank you for your submission!</p>
-      </div>
-    </div>
-    <div class="definition-right">
-      <div class="definition-grid">
-        <div class="definition-number">
-          <div class="border">
-            <h1>10</h1>
-            <p>Cities</p>
-          </div>
-        </div>
-        <div class="definition-number">
-          <div class="border">
-            <h1>10</h1>
-            <p>Data Innovations</p>
-          </div>
-        </div>
-        <div class="definition-number">
-          <div class="border">
-            <h1>10</h1>
-            <p>Intrapreneurs</p>
-          </div>
-        </div>
-        <div class="definition-number">
-          <div class="border">
-            <h1>10</h1>
-            <p>Different Countries</p>
-          </div>
-        </div>
-      </div>
-      <p><span id="blue-background">Millions of residents' lives improved</span></p>
-    </div>
-  </div>
-
-  <div class="timeline">
-    <h1>2021-2022 Timeline</h1>
-    <div class="row-cust mt-5">
-      <a target="_blank" class="column-3-timeline-5">
-        <div class="dot-class"> <span class="dot"></span></div>
-        <p style="margin-right: 1rem;"><span class="text-green"><b>July 21st</b></span></br>Application Opens
-        </p>
-      </a>
-      <a target="_blank" class="column-3-timeline-5">
-        <div class="dot-class"> <span class="dot"></span></div>
-        <p style="margin-right: 1rem;"><span class="text-green"><b>August 6th</b></span></br>Early applications deadline
-          for feedback
-        </p>
-      </a>
-      <a target="_blank" class="column-3-timeline-5">
-        <div class="dot-class"> <span class="dot"></span></div>
-        <p style="margin-right: 1rem;"><span class="text-green"><b>August 13th</b></span></br>Open Data Policy Lab team
-          will provide feedback to early deadline applicants
-        </p>
-      </a>
-      <a target="_blank" class="column-3-timeline-5">
-        <div class="dot-class"> <span class="dot"></span></div>
-        <p style="margin-right: 1rem;"><span class="text-green"><b>September 10th</b></span></br>Final application deadline
-        </p>
-      </a>
-      <a target="_blank" class="column-3-timeline-5">
-        <div class="dot-class"> <span class="dot"></span></div>
-        <p style="margin-right: 1rem;"><span class="text-green"><b>September 13th</b></span></br>Announcement of program
-          participants
-        </p>
-      </a>
-      <a target="_blank" class="column-3-timeline-5">
-        <div class="dot-class"> <span class="dot"></span></div>
-        <p style="margin-right: 1rem;"><span class="text-green"><b>September 20th</b></span></br>Programming begins
-        </p>
-      </a>
-      <a target="_blank" class="column-3-timeline-5 last">
-        <div class="dot-class"> <span class="dot"></span></div>
-        <p style="margin-right: 1rem;"><span class="text-green"><b>March 20th</b></span></br>Program Concludes
-        </p>
-      </a>
-
-    </div>
-  </div>
-  <div class="separator">
-    <h2>Programmatic Offerings</h2>
-  </div>
-<div class="convenings">
-  <h2>Dedicated Convenings</h2>
-  <p>
-    <ul>
-    <li><b>Kickoff Workshop: September 23rd</b><br>
-    Setting the stage, meeting each other, and “virtual mindset sprint” for a data innovation activity. </li><br>
-    
-    <li><b>Meet the Mentors Workshop: November</b><br>
-    A meet-and-greet event to identify additional opportunities to leverage the expertise of mentors moving forward.</li><br>
-    <li>
-    <b>Final Presentation: March 24th</b><br>
-    Presenting participants’ data innovations to a community of leaders in the civic technology and data innovation fields. A pitch training and practice session will be scheduled to prepare for this in February. </li>
-  </ul>  
-  </p>
-</div>
-<div class="separator">
-  <h2>Ongoing Programming</h2>
-</div>
-  <div class="benefits-section">
-    
-    <!-- <div class="benefit-left">
+      <!-- <div class="benefit-left">
       <div class="benefit-question">
         <p>Are you a data intrapreneur working in city government?</p>
       </div>
@@ -222,166 +230,149 @@
         <p>Can you imagine new ways to drive impact with data?</p>
       </div>
     </div> -->
-    <div class="benefit-right">
-      
-      <div class="benefit-statement">
+      <div class="benefit-right">
 
-        <div class="benefit-text">
-          <p><b>Data Innovation Bootcamp: September - November</b><br>Built from the principles of the <a href="https://opendatapolicylab.org/third-wave-of-open-data/">Third Wave of Open Data</a>, these weekly sessions will include four key components: Theory; Tools; Try; and Talk. They will explore subjects such as: Foundations of Data Innovation, Planning, Inclusive Innovation, Positioning, Launch Strategy and Sustainability.
-          </p>
-        </div>
-      </div>
-      <div class="benefit-statement">
+        <div class="benefit-statement">
 
-        <div class="benefit-text">
-          <p><b>Practitioner Discussion Series: November - February</b><br>
-            Twice a month participants will learn from guest practitioners, who will provide a lecture on select subjects tailored to the needs and interests of the program cohort, followed by a group discussion.
-            
-          </p>
-        </div>
-      </div>
-      <div class="benefit-statement">
-
-        <div class="benefit-text">
-          <p><b>Peer Knowledge Exchange: Monthly throughout the program</b><br>  
-            We strongly believe that innovation is a team sport and are excited for program participants to learn from and support each other throughout the program. Monthly Knowledge Exchanges,  “show and tells,” will provide space for participants to share past work with each other. 
+          <div class="benefit-text">
+            <p><b>Data Innovation Bootcamp: September - November</b><br>Built from the principles of the <a
+                href="https://opendatapolicylab.org/third-wave-of-open-data/">Third Wave of Open Data</a>, these weekly
+              sessions will include four key components: Theory; Tools; Try; and Talk. They will explore subjects such
+              as: Foundations of Data Innovation, Planning, Inclusive Innovation, Positioning, Launch Strategy and
+              Sustainability.
             </p>
-        </div>
-      </div>
-      <div class="benefit-statement">
-
-        <div class="benefit-text">
-          <p><b>Bespoke Guidance from Mentor Brain Trust: As needed throughout the program</b><br>
-            Our Council of Mentors is a network of experts, many of whom have been public sector innovators themselves. Mentors will be matched with program participants for one-on-one guidance by the City Incubator program staff based on participants’ needs throughout the program.
-            </p>
-        </div>
-      </div>
-      <div class="benefit-statement">
-
-        <div class="benefit-text">
-          <p><b>City Incubator Program Staff Check-Ins: Throughout the program</b><br>
-            The City Incubator Program Team has a wide range of experiences and are eager to support program participants however they can. During select periods throughout the program, participants will have a one-on-one meeting with a program team member and will otherwise be expected to report on progress weekly via email.
-            </p>
-        </div>
-      </div>
-      <div class="benefit-statement">
-
-        <div class="benefit-text">
-          <p><b>Data Innovation in Practice Series : Throughout the program</b><br>
-            A series of webinars where the City Incubator participants can introduce the innovation they are working on to a public audience for feedback and/or knowledge-sharing. 
-             </p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="application-section">
-    <div class="application-left">
-      <h1>Application Process</h1>
-      <p>Apply by August 6th and the City Incubator Team will review and provide feedback on your application if you
-        desire. All final applications are due by September 10th. All applications require:
-      </p>
-      <ul>
-        <li><b>Completed application form:</b> <a target="_blank" href="https://form.typeform.com/to/zrLVji">Application
-            Form</a>; PDF of Application Questions available <a target="_blank"
-            href="files/application-questions.pdf">here</a>.</li>
-        <li><b>Data Innovation Canvas:</b> All applications will require a Data Innovation Canvas to be completed and
-          submitted. The Data Innovation Canvas is a data project scoping tool, a template is provided, no design is
-          required. You can download a copy of the Data Innovation Canvas <a target="_blank"
-            href="https://docs.google.com/presentation/d/1FXQpR9knmz0jSHB3gvNK_stAW7KZKEOVeG8zmnoHeEw/edit?usp=sharing">here.</a>
-        </li>
-        <li><b>Agree to participate for the full length of the six month program</b> and acknowledge the time commitment
-          : We
-          expect program participants to engage in seven hours of programming and programming preparations per month in
-          addition to making progress on launching their data innovation outside of City Incubator programming
-          (recommend a minimum of 15 hours per month)</li>
-        <li><b>A letter of commitment</b> from your organization’s leadership (Commissioner, Chief of Staff or Deputy
-          Mayor)
-        </li>
-      </ul>
-      <p>If you have questions, please consult the FAQs at the bottom of this site. If after reading the FAQs you have
-        additional questions, contact <a href="mailto:adrienne@thegovlab.org">adrienne@thegovlab.org</a>. All answers to
-        questions sent via email will be added to the FAQ as a resource for all interested program participants. </p>
-      <div class="apply-button">
-        <a target="_blank" href="https://form.typeform.com/to/zrLVji">Apply Here</a>
-      </div>
-    </div>
-    <div class="application-right">
-      <h1>Webinar Series</h1>
-      <p>Two webinars are being offered to help guide applicants through the application process and development of
-        their data innovation for submission. All webinars will be recorded and available on this site if you are unable
-        to join the live event. Webinar dates:</p>
-        <ul>
-          <li>August 12th, 1pm ET - <a href="https://www.youtube.com/watch?v=j35ohdz6eLQ">Watch the Recording</a></li>
-          <li>August 24th, 8am ET - <a href="https://www.youtube.com/watch?v=TDgEkOfiGGo">Watch the Recording</a></li>
-        </ul>
-      <p></p>
-      <div class="signup">
-
-        <p>Join the Data Stewards Network listserv for a weekly digest and updates on the City Incubator deadlines,
-          announcements and programming.</p>
-        <script type="text/javascript">var submitted = false;</script>
-        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {confirm()}">
-        </iframe>
-        <form method="post" action="https://thegovlab.us6.list-manage.com/subscribe/post?u=1a990feb5c&id=bc6d09925f"
-          target="_blank">
-          <div style="position: absolute; left: -5000px;"><input type="text" name="b_1a990feb5c_d90a01c7ff"
-              tabindex="-1" value=""></div>
-
-          <div class="form-row">
-            <input type="text" placeholder="EMAIL ADDRESS*" name="entry.865215628" aria-hidden=”true”>
-            <button name="subscribe form button" class="form-button" type="submit" aria-hidden=”true”>Sign Up for
-              Updates</button>
           </div>
-        </form>
-        <p id="thankyou">Thank you for your submission!</p>
-      </div>
-    </div>
-  </div>
-  <div class="partners-section">
-    <h1>Partners</h1>
-    <p>We are excited to partner with a variety of individuals and organizations around the world eager to collaborate
-      in helping public innovators in cities to advance responsible data innovation initiatives. If you're interested in
-      exploring a way to support the City Incubator, email: <a
-        href="mailto:adrienne@thegovlab.org">adrienne@thegovlab.org</a></p>
-    <div class="partner-logos">
-      <div class="partner-item">
-        <img src="img/mslogo.jpg">
-        <p>Microsoft's mission is to empower every person and every organization on the planet to acheive more.</p>
-      </div>
-      <div class="partner-item">
-        <img src="img/citypossible.jpg">
+        </div>
+        <div class="benefit-statement">
 
-        <p>City Possible is a partnership model pioneered by Mastercard that helps cities develop shareable solutions to
-          common problems that advance inclusive and sustainable urban development. Through City Possible, we’re helping
-          unlock more possibilities for people and businesses by helping city leaders connect communities with
-          integrated city services. City Incubator participants will have access to the <a target="_blank"
-            href="https://citypossible.com/how-to-access-city-insights/">suite of apps, tools and
-            services available through the City Insights digital marketplace</a>.</p>
-      </div>
-      <div class="partner-item">
-        <img src="img/luminate.png">
-        <p>Luminate is a global philanthropic organisation focused on empowering people and institutions to work
-          together to build just and fair societies.</p>
-      </div>
-      <div class="partner-item">
-        <img src="img/cusp.png">
-        <p>New York University’s Center for Urban Science And Progress (CUSP) is an interdisciplinary research center
-          dedicated to the application of science, technology, engineering, and mathematics in the service of urban
-          communities across the globe.</p>
-      </div>
-      <div class="partner-item">
-        <img src="img/psn.png">
-        <p>PSN is a social learning platform for the Public Sector. We connect public sector professionals around the
-          world, to share information and learn through examples from other government organisations, while building a
-          strong sense of community with our members.</p>
-      </div>
-      <div class="partner-item">
-        <img src="img/open-north.png">
-        <p>We are a non-profit, driven by our values. We work with public, private and research partners as well as community stakeholders to foster effective, responsible, and collaborative use of data and technology and solve complex problems.</p>
+          <div class="benefit-text">
+            <p><b>Practitioner Discussion Series: November - February</b><br>
+              Twice a month participants will learn from guest practitioners, who will provide a lecture on select
+              subjects tailored to the needs and interests of the program cohort, followed by a group discussion.
+
+            </p>
+          </div>
+        </div>
+        <div class="benefit-statement">
+
+          <div class="benefit-text">
+            <p><b>Peer Knowledge Exchange: Monthly throughout the program</b><br>
+              We strongly believe that innovation is a team sport and are excited for program participants to learn from
+              and support each other throughout the program. Monthly Knowledge Exchanges, “show and tells,” will provide
+              space for participants to share past work with each other.
+            </p>
+          </div>
+        </div>
+        <div class="benefit-statement">
+
+          <div class="benefit-text">
+            <p><b>Bespoke Guidance from Mentor Brain Trust: As needed throughout the program</b><br>
+              Our Council of Mentors is a network of experts, many of whom have been public sector innovators
+              themselves. Mentors will be matched with program participants for one-on-one guidance by the City
+              Incubator program staff based on participants’ needs throughout the program.
+            </p>
+          </div>
+        </div>
+        <div class="benefit-statement">
+
+          <div class="benefit-text">
+            <p><b>City Incubator Program Staff Check-Ins: Throughout the program</b><br>
+              The City Incubator Program Team has a wide range of experiences and are eager to support program
+              participants however they can. During select periods throughout the program, participants will have a
+              one-on-one meeting with a program team member and will otherwise be expected to report on progress weekly
+              via email.
+            </p>
+          </div>
+        </div>
+        <div class="benefit-statement">
+
+          <div class="benefit-text">
+            <p><b>Data Innovation in Practice Series : Throughout the program</b><br>
+              A series of webinars where the City Incubator participants can introduce the innovation they are working
+              on to a public audience for feedback and/or knowledge-sharing.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  
+    <div class="separator">
+      <h2>PRESS</h2>
+    </div>
+    <div class="press">
+
+      <div class="press-row">
+        <div class="press-col" v-for="(press,index) in pressData" v-if="(index < 3 && press.feature)">
+          <div class="press-card">
+            <div class="press-img" :style="{ backgroundImage: 'url(' + press.thumbnail.data.full_url+ ')' }">
+
+            </div>
+            <div class="press-body">
+              <h2>{{press.title}}</h2>
+              <p>{{press.description}}</p>
+            </div>
+            <div class="press-link">
+              <a :href="press.url">Read More</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="all-articles">
+        <div class="press-link">
+          <a href="press/index.html">See All Articles</a>
+        </div>
+      </div>
+    </div>
+    <div class="partners-section">
+      <h1>Partners</h1>
+      <p>We are excited to partner with a variety of individuals and organizations around the world eager to collaborate
+        in helping public innovators in cities to advance responsible data innovation initiatives. If you're interested
+        in
+        exploring a way to support the City Incubator, email: <a
+          href="mailto:adrienne@thegovlab.org">adrienne@thegovlab.org</a></p>
+      <div class="partner-logos">
+        <div class="partner-item">
+          <img src="img/mslogo.jpg">
+          <p>Microsoft's mission is to empower every person and every organization on the planet to acheive more.</p>
+        </div>
+        <div class="partner-item">
+          <img src="img/citypossible.jpg">
+
+          <p>City Possible is a partnership model pioneered by Mastercard that helps cities develop shareable solutions
+            to
+            common problems that advance inclusive and sustainable urban development. Through City Possible, we’re
+            helping
+            unlock more possibilities for people and businesses by helping city leaders connect communities with
+            integrated city services. City Incubator participants will have access to the <a target="_blank"
+              href="https://citypossible.com/how-to-access-city-insights/">suite of apps, tools and
+              services available through the City Insights digital marketplace</a>.</p>
+        </div>
+        <div class="partner-item">
+          <img src="img/luminate.png">
+          <p>Luminate is a global philanthropic organisation focused on empowering people and institutions to work
+            together to build just and fair societies.</p>
+        </div>
+        <div class="partner-item">
+          <img src="img/cusp.png">
+          <p>New York University’s Center for Urban Science And Progress (CUSP) is an interdisciplinary research center
+            dedicated to the application of science, technology, engineering, and mathematics in the service of urban
+            communities across the globe.</p>
+        </div>
+        <div class="partner-item">
+          <img src="img/psn.png">
+          <p>PSN is a social learning platform for the Public Sector. We connect public sector professionals around the
+            world, to share information and learn through examples from other government organisations, while building a
+            strong sense of community with our members.</p>
+        </div>
+        <div class="partner-item">
+          <img src="img/open-north.png">
+          <p>We are a non-profit, driven by our values. We work with public, private and research partners as well as
+            community stakeholders to foster effective, responsible, and collaborative use of data and technology and
+            solve complex problems.</p>
+        </div>
+      </div>
+    </div>
+
     <div class="partners-section">
       <h1>Council of Mentors</h1>
       <p>Our Council of Mentors are experts from around the world in domains such as product management, performance

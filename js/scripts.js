@@ -100,18 +100,11 @@ new Vue({
       client.getItems(
   'mentors',
   {
+    sort: "-last_name",
     fields: ['*.*']
   }
 ).then(data => {
 
-  data.data.sort(function(a, b) {
-    
-    var textA = a.last_name.toUpperCase();
-    var textB = b.last_name.toUpperCase();
-    return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
-
-  
-});
   console.log(data)
   self.mentorData = data.data;
 })

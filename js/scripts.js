@@ -129,8 +129,7 @@ new Vue({
   self.faqData = data.data;
 })
 .catch(error => console.error(error));
-    }
-    ,
+    },
     toggleMessage (index) {
       this.index_active = index;
     	this.showMessage = !this.showMessage;

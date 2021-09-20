@@ -744,14 +744,18 @@ input[type=text]{
 .team-image .square{
   display: inline-block;
   position: relative;
-  width: 200px;
-  height: 200px;
+  
 display: flex;
 justify-content: center;
 align-items: center;
   overflow: hidden;
   border-radius: 50%;
   border: 0px solid var(--theme-blue);
+}
+.square img{
+    width: 180px;
+  height: 180px;
+  object-fit: cover;
 }
 .text-box{
     display:flex;

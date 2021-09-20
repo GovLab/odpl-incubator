@@ -316,7 +316,7 @@
     <div class="press">
 
       <div class="press-row">
-        <div class="press-col" v-for="(press,index) in pressData" v-if="((index < 3) && press.feature)">
+        <div class="press-col" v-for="(press,index) in featuredPressData" v-if="((index < 3) && press.feature)">
           <div class="press-card">
             <div class="press-img" :style="{ backgroundImage: 'url(' + press.thumbnail.data.full_url+ ')' }">
 

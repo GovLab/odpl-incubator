@@ -32,6 +32,7 @@ new Vue({
       mentorData: [],
       participantData: [],
       pressData: [],
+      featuredPressData: [],
       faqData:[],
       showMessage: true,
       index_active:0,
@@ -44,6 +45,7 @@ new Vue({
     this.fetchAlerts();
     this.fetchMentor();
     this.fetchPress();
+    this.fetchFeaturedPress();
     this.toggleMessage();
     this.fetchQuestions();
     this.fetchParticipants();
@@ -51,6 +53,29 @@ new Vue({
 
 
   methods: {
+    fetchFeaturedPress() {
+      self = this;
+      const client = new DirectusSDK({
+        url: "https://directus.thegovlab.com/",
+        project: "odpl-incubator",
+        storage: window.localStorage
+      });
+
+      client.getItems(
+  'news',
+  {
+    filter :{
+      feature:'1'
+    },
+    fields: ['*.*']
+  }
+).then(data => {
+  self.featuredPressData = data.data;
+
+})
+
+.catch(error => console.error(error));
+    },
     fetchPress() {
       self = this;
       const client = new DirectusSDK({

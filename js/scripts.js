@@ -30,6 +30,7 @@ new Vue({
   
     return {
       mentorData: [],
+      participantData: [],
       pressData: [],
       faqData:[],
       showMessage: true,
@@ -45,6 +46,7 @@ new Vue({
     this.fetchPress();
     this.toggleMessage();
     this.fetchQuestions();
+    this.fetchParticipants();
   },
 
 
@@ -107,6 +109,28 @@ new Vue({
 
   console.log(data)
   self.mentorData = data.data;
+})
+
+.catch(error => console.error(error));
+    },
+    fetchParticipants() {
+      self = this;
+      const client = new DirectusSDK({
+        url: "https://directus.thegovlab.com/",
+        project: "odpl-incubator",
+        storage: window.localStorage
+      });
+
+      client.getItems(
+  'selected_participants',
+  {
+    sort: "last_name",
+    fields: ['*.*']
+  }
+).then(data => {
+
+  console.log(data)
+  self.participantData = data.data;
 })
 
 .catch(error => console.error(error));

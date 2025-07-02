@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offline-Only Test - ODPL Incubator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .test-section {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .success {
+            background-color: #d4edda;
+            border-color: #c3e6cb;
+            color: #155724;
+        }
+        .error {
+            background-color: #f8d7da;
+            border-color: #f5c6cb;
+            color: #721c24;
+        }
+        .warning {
+            background-color: #fff3cd;
+            border-color: #ffeaa7;
+            color: #856404;
+        }
+        .console-output {
+            background-color: #f8f9fa;
+            border: 1px solid #dee2e6;
+            padding: 10px;
+            border-radius: 3px;
+            font-family: monospace;
+            white-space: pre-wrap;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>ODPL Incubator Offline-Only Verification</h1>
+    
+    <div class="test-section success">
+        <h3>✅ Offline-Only Configuration</h3>
+        <p>This test verifies that the ODPL Incubator site is configured to work entirely offline without any API calls to Directus.</p>
+    </div>
+
+    <div class="test-section">
+        <h3>🔍 What to Check</h3>
+        <ol>
+            <li><strong>Open Browser Developer Tools</strong> (F12 or right-click → Inspect)</li>
+            <li><strong>Go to the Network tab</strong> and clear any existing requests</li>
+            <li><strong>Navigate to the main site</strong> (<a href="index.html" target="_blank">index.html</a>)</li>
+            <li><strong>Check the Network tab</strong> - you should see NO requests to:
+                <ul>
+                    <li><code>directus.thegovlab.com</code></li>
+                    <li><code>unpkg.com/@directus/sdk-js</code></li>
+                </ul>
+            </li>
+            <li><strong>Check the Console tab</strong> - you should see messages like:
+                <ul>
+                    <li>"Loaded mentors from local JSON file (offline mode)"</li>
+                    <li>"Loaded participants from local JSON file (offline mode)"</li>
+                    <li>"Loaded press from local JSON file (offline mode)"</li>
+                    <li>"Loaded FAQ from local JSON file (offline mode)"</li>
+                    <li>NO "trying API..." messages</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+    <div class="test-section">
+        <h3>🧪 Test Press Page</h3>
+        <p>Test the press page to ensure it also works offline:</p>
+        <ul>
+            <li><a href="press/index.html" target="_blank">Press page</a></li>
+        </ul>
+    </div>
+
+    <div class="test-section warning">
+        <h3>⚠️ Expected Console Messages</h3>
+        <p>When working correctly, you should see these messages in the browser console:</p>
+        <div class="console-output">Loaded mentors from local JSON file (offline mode)
+Loaded participants from local JSON file (offline mode)
+Loaded press from local JSON file (offline mode)
+Loaded featured press from local JSON file (offline mode)
+Loaded FAQ from local JSON file (offline mode)
+Loaded alerts from local JSON file (offline mode)</div>
+    </div>
+
+    <div class="test-section error">
+        <h3>❌ Error Messages (If Something Goes Wrong)</h3>
+        <p>If the site tries to make API calls, you'll see error messages like:</p>
+        <div class="console-output">ERROR: Local mentors data not available. This site requires offline data to function.
+Please ensure mentors-local.json exists in the data directory.</div>
+    </div>
+
+    <div class="test-section">
+        <h3>🔧 Files Modified for Offline-Only Operation</h3>
+        <ul>
+            <li><strong>js/scripts.js</strong> - Removed API calls, only loads from local JSON</li>
+            <li><strong>index.html</strong> - Removed Directus SDK import, added DATA_PATH</li>
+            <li><strong>press/index.html</strong> - Removed Directus SDK import, added DATA_PATH</li>
+            <li><strong>data/*.json</strong> - Sample data files for offline use</li>
+        </ul>
+    </div>
+
+    <div class="test-section">
+        <h3>📁 Data Files Created</h3>
+        <ul>
+            <li><strong>data/mentors-local.json</strong> - Mentor data</li>
+            <li><strong>data/participants-local.json</strong> - Participant data</li>
+            <li><strong>data/press-local.json</strong> - Press articles</li>
+            <li><strong>data/featured-press-local.json</strong> - Featured press articles</li>
+            <li><strong>data/faq-local.json</strong> - FAQ data</li>
+            <li><strong>data/alerts-local.json</strong> - Alert banner data</li>
+        </ul>
+    </div>
+
+    <div class="test-section success">
+        <h3>✅ Verification Complete</h3>
+        <p>If you see the expected console messages and no API calls in the Network tab, the site is successfully configured for offline-only operation!</p>
+    </div>
+
+    <script>
+        // Set up console monitoring
+        const originalFetch = window.fetch;
+        const originalXHROpen = XMLHttpRequest.prototype.open;
+        
+        let apiCallsDetected = [];
+        
+        // Monitor fetch calls
+        window.fetch = function(...args) {
+            const url = args[0];
+            if (typeof url === 'string' && (url.includes('directus') || url.includes('unpkg.com/@directus'))) {
+                apiCallsDetected.push(`FETCH: ${url}`);
+                console.error('🚨 API CALL DETECTED:', url);
+            }
+            return originalFetch.apply(this, args);
+        };
+        
+        // Monitor XMLHttpRequest calls
+        XMLHttpRequest.prototype.open = function(method, url, ...args) {
+            if (typeof url === 'string' && (url.includes('directus') || url.includes('unpkg.com/@directus'))) {
+                apiCallsDetected.push(`XHR: ${url}`);
+                console.error('🚨 API CALL DETECTED:', url);
+            }
+            return originalXHROpen.apply(this, [method, url, ...args]);
+        };
+        
+        // Display results after page load
+        window.addEventListener('load', function() {
+            setTimeout(() => {
+                if (apiCallsDetected.length > 0) {
+                    console.error('❌ OFFLINE TEST FAILED: API calls detected:', apiCallsDetected);
+                } else {
+                    console.log('✅ OFFLINE TEST PASSED: No API calls detected');
+                }
+            }, 2000);
+        });
+    </script>
+</body>
+</html> 

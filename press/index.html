@@ -29,7 +29,11 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://unpkg.com/@directus/sdk-js@5.3.4/dist/directus-sdk.umd.min.js"></script>
+  
+  <script>
+    // Set data path for offline mode (one level up)
+    window.DATA_PATH = '../data/';
+  </script>
 </head>
 
 <body>
@@ -65,7 +69,7 @@
       <div class="press-row">
         <div class="press-col" v-for="(press,index) in pressData">
           <div class="press-card">
-            <div class="press-img" :style="{ backgroundImage: 'url(' + press.thumbnail.data.full_url+ ')' }">
+            <div class="press-img" :style="{ backgroundImage: 'url(' + (press.thumbnail ? '/img/' + press.thumbnail.filename_disk : 'img/placeholder-press.jpg') + ')' }">
 
             </div>
             <div class="press-body">

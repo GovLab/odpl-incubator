@@ -30,7 +30,11 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://unpkg.com/@directus/sdk-js@5.3.4/dist/directus-sdk.umd.min.js"></script>
+  
+  <script>
+    // Set data path for offline mode
+    window.DATA_PATH = './data/';
+  </script>
 </head>
 
 <body>
@@ -151,9 +155,10 @@
     </div>
     <div class="partners-section">
       <div class="team">
+        
         <div v-for="(participant,index) in participantData.reverse()" class="team-image team-50">
           <div class="square">
-            <img v-bind:src="participant.headshot.data.thumbnails[3].url">
+            <img v-bind:src="participant.headshot && participant.headshot.data && participant.headshot.data.url ? participant.headshot.data.url : 'img/placeholder-headshot.jpg'">
           </div>
           <h4><a target="_blank">{{participant.first_name}} {{participant.last_name}}</a></h4>
           <h5 style="text-align:center">{{participant.title}}, {{participant.organization}}, {{participant.city}}, {{participant.country}}</h5>
@@ -216,14 +221,14 @@
       <p>
       <ul>
         <li><b>Kickoff Workshop: September</b><br>
-          Setting the stage, meeting each other, and “virtual mindset sprint” for a data innovation activity. </li><br>
+          Setting the stage, meeting each other, and "virtual mindset sprint" for a data innovation activity. </li><br>
 
         <li><b>Meet the Mentors Workshop: November</b><br>
           A meet-and-greet event to identify additional opportunities to leverage the expertise of mentors moving
           forward.</li><br>
         <li>
           <b>Final Presentation: March</b><br>
-          Presenting participants’ data innovations to a community of leaders in the civic technology and data
+          Presenting participants' data innovations to a community of leaders in the civic technology and data
           innovation fields. A pitch training and practice session will be scheduled to prepare for this in February.
         </li>
       </ul>
@@ -273,7 +278,7 @@
           <div class="benefit-text">
             <p><b>Peer Knowledge Exchange: Monthly throughout the program</b><br>
               We strongly believe that innovation is a team sport and are excited for program participants to learn from
-              and support each other throughout the program. Monthly Knowledge Exchanges, “show and tells,” will provide
+              and support each other throughout the program. Monthly Knowledge Exchanges, "show and tells," will provide
               space for participants to share past work with each other.
             </p>
           </div>
@@ -284,7 +289,7 @@
             <p><b>Bespoke Guidance from Mentor Brain Trust: As needed throughout the program</b><br>
               Our Council of Mentors is a network of experts, many of whom have been public sector innovators
               themselves. Mentors will be matched with program participants for one-on-one guidance by the City
-              Incubator program staff based on participants’ needs throughout the program.
+              Incubator program staff based on participants' needs throughout the program.
             </p>
           </div>
         </div>
@@ -318,7 +323,7 @@
       <div class="press-row">
         <div class="press-col" v-for="(press,index) in featuredPressData" v-if="((index < 3) && press.feature)">
           <div class="press-card">
-            <div class="press-img" :style="{ backgroundImage: 'url(' + press.thumbnail.data.full_url+ ')' }">
+            <div class="press-img" :style="{ backgroundImage: 'url(' + (press.thumbnail && press.thumbnail.data && press.thumbnail.data.url ? press.thumbnail.data.url : 'img/placeholder-press.jpg') + ')' }">
 
             </div>
             <div class="press-body">
@@ -355,7 +360,7 @@
 
           <p>City Possible is a partnership model pioneered by Mastercard that helps cities develop shareable solutions
             to
-            common problems that advance inclusive and sustainable urban development. Through City Possible, we’re
+            common problems that advance inclusive and sustainable urban development. Through City Possible, we're
             helping
             unlock more possibilities for people and businesses by helping city leaders connect communities with
             integrated city services. City Incubator participants will have access to the <a target="_blank"
@@ -369,7 +374,7 @@
         </div>
         <div class="partner-item">
           <img src="img/cusp.png">
-          <p>New York University’s Center for Urban Science And Progress (CUSP) is an interdisciplinary research center
+          <p>New York University's Center for Urban Science And Progress (CUSP) is an interdisciplinary research center
             dedicated to the application of science, technology, engineering, and mathematics in the service of urban
             communities across the globe.</p>
         </div>
@@ -396,8 +401,10 @@
         preliminary group of mentors; recruitment of additional mentors is taking place over the summer.</p>
       <div class="team">
         <div v-for="(mentor,index) in mentorData.reverse()" class="team-image team-50">
+          
           <div class="square">
-            <img v-bind:src="mentor.headshot.data.thumbnails[3].url">
+            
+            <img v-bind:src="mentor.headshot ? '/img/' + mentor.headshot.filename_disk : 'img/placeholder-headshot.jpg'">
           </div>
           <h4><a target="_blank" :href="mentor.linkedin">{{mentor.first_name}} {{mentor.last_name}}</a></h4>
           <h5>{{mentor.affiliation}}</h5>

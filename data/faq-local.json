@@ -1,0 +1,117 @@
+{
+  "data": [
+    {
+      "id": 2,
+      "status": "published",
+      "question": "Why should I apply to the City Incubator?",
+      "answer": "<ul>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Join a first-of-its kind international public sector incubator for diverse data innovation initiatives</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Become part of an international community of data intrapreneurs who will engage in monthly knowledge exchanges</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Learn best practices and receive feedback as you launch your data innovation initiative</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Gain access to resources from the City Incubator&rsquo;s partners and to experts in data strategy, innovation, public service and intrapreneurship from the Council of Mentors</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Engage in an opportunity to share your work and ideas publicly and with leaders in the field of civic innovation</span></li>\n</ul>",
+      "order": 1
+    },
+    {
+      "id": 3,
+      "status": "published",
+      "question": "What is the application deadline? Why are there two?",
+      "answer": "<p>Apply by August 6th and the Open Data Policy Lab team will review and provide feedback on your application by August 13th - if desired. All final applications are due by September 10th.&nbsp;</p>\n<p>&nbsp;</p>",
+      "order": 2
+    },
+    {
+      "id": 4,
+      "status": "published",
+      "question": "What is the criteria for applying to be a part of the City Incubator?",
+      "answer": "<p><span style=\"font-weight: 400;\">Individuals applying must:&nbsp;&nbsp;</span></p>\n<ol>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Be employed by a municipal government</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Hold a role with decision-making authority over a data program, asset, or initiative;</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Have experience implementing at least one prior successful data innovation;</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Agree to the program&rsquo;s time commitment, estimated to be seven hours of programming per month in addition to dedicating time to implement the initiative submitted to the City Incubator program;&nbsp;</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Abide by the program&rsquo;s code of conduct;</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Speak and write fluently in English; and&nbsp;</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Have a signed statement from leadership in your organization indicating approval for your participation in the program if you are selected. </span></li>\n</ol>",
+      "order": 3
+    },
+    {
+      "id": 5,
+      "status": "published",
+      "question": "What is the criteria for your data innovation submission?",
+      "answer": "<p><span style=\"font-weight: 400;\">Innovations submitted to the City Incubator for consideration must be:&nbsp;</span></p>\n<ol>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"text-decoration: underline;\"><span style=\"font-weight: 400;\">Data-powered</span></span><span style=\"font-weight: 400;\">: Initiatives accepted into the City Incubator all recognize the value of data as a force for solving urban problems;</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"text-decoration: underline;\"><span style=\"font-weight: 400;\">Responsibility-focused</span></span><span style=\"font-weight: 400;\">: All program participants will be taught principles and tactics in technology ethics, responsible data re-use and transparency best practices;&nbsp;</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"text-decoration: underline;\"><span style=\"font-weight: 400;\">Impact-driven</span></span><span style=\"font-weight: 400;\">: All projects will be selected for their potential to create tangible impact for city residents. All initiatives must be focused on delivering impact to the people who call these cities home;&nbsp;</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\"><span style=\"text-decoration: underline;\">Community-centric</span>:</span><span style=\"font-weight: 400;\"> A strong and inclusive engagement with community groups and data holders (e.g. private sector, academic, or community-based) around the potential for data collaboration (as relevant based on the specific initiative) will be a key requirement; and</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"text-decoration: underline;\">Future-thinking</span><span style=\"font-size: 16px;\">: Data innovations submitted should not be one-time projects but rather a first step in building a future framework or infrastructure to support additional impact.</span></li>\n</ol>\n<p>&nbsp;</p>",
+      "order": 4
+    },
+    {
+      "id": 6,
+      "status": "published",
+      "question": "How far along does my data innovation submission need to be?",
+      "answer": "<p><span style=\"font-weight: 400;\">Data innovation ideas submitted to the City Incubator program must be thought out enough such that the Data Innovation Canvas can be completed and submitted and far enough along that there is a commitment from your organization for its implementation. Some data innovation ideas may be brand new initiatives whereas others may be extensions of existing products or programs. If you have questions on whether your data innovation idea will qualify contact: </span><span style=\"font-weight: 400;\">adrienne@thegovlab.org</span></p>\n<p>&nbsp;</p>",
+      "order": 5
+    },
+    {
+      "id": 7,
+      "status": "published",
+      "question": "What kinds of projects are considered “data innovations”?",
+      "answer": "<p><span style=\"font-weight: 400;\">&ldquo;Data innovation&rdquo; is a broad term that we&rsquo;re using to consider a variety of data projects focused on building new infrastructure, processes or products to support solving urban problems, driving societal impact and developing insights to drive impact to a city&rsquo;s residents. Categories of data innovations may include:&nbsp;</span></p>\n<p><span style=\"text-decoration: underline;\"><span style=\"font-weight: 400;\">Publishing with Purpose</span></span><span style=\"font-weight: 400;\">: Engagements with the public to assess demand for data in order to solve urban challenges</span></p>\n<p><span style=\"text-decoration: underline;\"><span style=\"font-weight: 400;\">Fostering Partnerships and Data Collaboration</span></span><span style=\"font-weight: 400;\">: Cross-sector partnerships to facilitate data-sharing in pursuit of solving urban problems</span></p>\n<p><span style=\"text-decoration: underline;\"><span style=\"font-weight: 400;\">Advancing Open Data</span></span><span style=\"font-weight: 400;\">: Level-ing up an existing open data program via new mechanisms for publishing, policies, technical or governance-related resource development</span></p>\n<p><span style=\"text-decoration: underline;\"><span style=\"font-weight: 400;\">Prioritizing Data Responsibility and Data Rights</span></span><span style=\"font-weight: 400;\">: Designing new internal or external mechanisms or processes to surface and protect transparency and accountability mechanisms related to existing or new data programs and initiatives</span></p>\n<p>&nbsp;</p>",
+      "order": 6
+    },
+    {
+      "id": 8,
+      "status": "published",
+      "question": "Do program participants receive funding?",
+      "answer": "<p>Program participants have access to a variety of resources such as a Council of Mentors, access to the Open Data Policy Team and the opportunity to present their final project&rsquo;s progress to a panel of leaders across philanthropy and city governments. Funding to realize the data innovation project is not a part of the City Incubator&rsquo;s offerings.&nbsp;</p>\n<p>&nbsp;</p>",
+      "order": 7
+    },
+    {
+      "id": 15,
+      "status": "published",
+      "question": "Do data innovation submissions need to involve open data?",
+      "answer": "<p>While open data is a foundation for any city government data ecosystem and there are many opporutnities for data innovation to build off of this foundation; incorporating and using open data is not a requirement for a data innovation submission for the City Incubator.&nbsp;</p>",
+      "order": 7
+    },
+    {
+      "id": 9,
+      "status": "published",
+      "question": "Can my team members be involved in any of the programming?",
+      "answer": "<p><span style=\"font-weight: 400;\">Yes &mdash; as a part of the application process you will be able to list up to three team members who will have the opportunity to be involved in select programming during the incubator&rsquo;s programming. Keep in mind that the individual applying is the City Incubator Team&rsquo;s primary point of contact throughout the program, expected to attend all scheduled programming and ultimately responsible for launching their data innovation during the course of the program.</span></p>\n<p>&nbsp;</p>",
+      "order": 8
+    },
+    {
+      "id": 10,
+      "status": "published",
+      "question": "What is the expected time commitment for program participants?",
+      "answer": "<p><span style=\"font-weight: 400;\">The City Incubator will run programming for six months from the end of September 2021 - March 2022. The current expectation is that program participants commit approximately seven hours per month to participate and prepare to engage in scheduled programming (meeting with mentors, monthly knowledge exchange, regular reporting out on status of the data innovation, accomplishing milestones, attending discussions, etc.).&nbsp;</span></p>\n<p><span style=\"font-weight: 400;\">Program participants are also expected to be making progress on the implementation of their data innovation on their own time; it is recommended to have at least 15 hours set aside for this monthly (this is a ballpark estimate; we understand that the time required for implementation will vary for each data innovation).</span></p>\n<p>&nbsp;</p>",
+      "order": 9
+    },
+    {
+      "id": 11,
+      "status": "published",
+      "question": "Which language will all programming and materials be in?",
+      "answer": "<p><span style=\"font-weight: 400;\">All City Incubator programming will be in English. There will be a public writing component of the programming, and if program participants would like they can publish this in their local language.</span></p>\n<p>&nbsp;</p>",
+      "order": 10
+    },
+    {
+      "id": 12,
+      "status": "published",
+      "question": "How much data expertise is required of program participants?",
+      "answer": "<p><span style=\"font-weight: 400;\">Data literacy is required, but applicants are not expected to be data scientists or to have a background in data science. The expectation is that applicants know enough about data such that they can articulate and understand the theory of change of their data innovation.</span></p>\n<p>&nbsp;</p>",
+      "order": 11
+    },
+    {
+      "id": 13,
+      "status": "published",
+      "question": "When will programming engagements take place?",
+      "answer": "<p><span style=\"font-weight: 400;\">We plan to schedule all live engagements on a rotational schedule to accommodate the various timezones of program participants and will work with all ten program participants to ensure that no one is consistently joining engagements during an inconvenient date or time. We hope that all program participants will understand that being in a global program will require some flexibility!</span></p>\n<p>&nbsp;</p>",
+      "order": 12
+    },
+    {
+      "id": 14,
+      "status": "published",
+      "question": "How will live engagements take place?",
+      "answer": "<p><span style=\"font-weight: 400;\">All engagements will be taking place virtually over Zoom, with potentially a graduation of initiatives in person. If you are considering applying and have concerns please contact </span><span style=\"font-weight: 400;\">adrienne@thegovlab.org</span><span style=\"font-weight: 400;\"> to discuss further.</span></p>\n<p>&nbsp;</p>",
+      "order": 13
+    },
+    {
+      "id": 16,
+      "status": "published",
+      "question": "Can I submit more than one data innovation?",
+      "answer": "<p>Yes, you are welcome to submit more than one data innovation for consideration, but in order to do so will need to submit a full application for each data innovation submission: a separate Data Innovation Canvas, application form and Letter of Commitment.&nbsp;</p>",
+      "order": null
+    },
+    {
+      "id": 17,
+      "status": "published",
+      "question": "Can you provide additional details on the visibility the program participants and their data innovations will receive?",
+      "answer": "<p>Here is an outline of the public visibility we are currently planning for the program, though there may be additional opportunities that arise as the program evolves:&nbsp;</p>\n<div>\n<ol>\n<li><span id=\"m_-2636659616857813925gmail-docs-internal-guid-12b66288-7fff-6940-2485-a92a6d4e871a\">We are currently planning for a public announcement of the applicants &amp; data innovations selected for the program, this will involve adding the program participants to the City Incubator website, a blog post and social media, and potential media coverage.</span></li>\n<li><span id=\"m_-2636659616857813925gmail-docs-internal-guid-12b66288-7fff-6940-2485-a92a6d4e871a\">We are also planning to engage program participants as contributors in a monthly blog series to be hosted on the Open Data Policy Lab's blog.</span></li>\n<li>We are planning to have all program participants engage in a public panel as panelists for a public event; details to be confirmed.</li>\n<li><span id=\"m_-2636659616857813925gmail-docs-internal-guid-12b66288-7fff-6940-2485-a92a6d4e871a\">Lastly, we plan to ask program participants to help us showcase their launched data innovation (1) during a final presentation during the program to leaders in the Civic Technology community and (2) for inclusion in a public repository of \"data innovations\" as a resource and inspiration to other municipal government employees.</span></li>\n</ol>\nWe recognize that there are sensitivities with the various data innovation projects that will be selected and expect that all program participants will be able to collaborate with their communications and public affairs teams as necessary to help ensure that their data innovation and work is featured in an appropriate way.</div>",
+      "order": null
+    }
+  ],
+  "public": true
+}

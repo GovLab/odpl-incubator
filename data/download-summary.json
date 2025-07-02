@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-07-02T21:17:09.813Z",
+  "totalFiles": 6,
+  "files": [
+    "mentors-local.json",
+    "participants-local.json",
+    "press-local.json",
+    "featured-press-local.json",
+    "faq-local.json",
+    "alerts-local.json"
+  ]
+}

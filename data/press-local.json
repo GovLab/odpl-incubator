@@ -1,0 +1,527 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "status": "published",
+      "title": "NYU data lab launches incubator for city data projects | StateScoop",
+      "description": "“City Incubator” at NYU’s Open Data Policy Lab promises to help 10 local government technology officials from around the world develop their projects.",
+      "url": "https://statescoop.com/nyu-data-lab-launches-incubator-for-city-data-projects/",
+      "thumbnail": {
+        "id": 29,
+        "storage": "local",
+        "private_hash": "lnxnwf1ho34oo8ck",
+        "filename_disk": "df91a492-3e39-408e-8fc0-3481af82a9b8.jpg",
+        "filename_download": "Jacobs_building_of_NYU_Tandon_School_of_Engineering.jpg",
+        "title": "Jacobs Building Of Nyu Tandon School Of Engineering",
+        "type": "image/jpeg",
+        "uploaded_by": 1,
+        "uploaded_on": "2021-09-10T16:49:53+00:00",
+        "charset": "binary",
+        "filesize": 379403,
+        "width": 1200,
+        "height": 922,
+        "duration": 0,
+        "embed": null,
+        "folder": null,
+        "description": "",
+        "location": "",
+        "tags": [],
+        "checksum": "d06341ffab60d9c2836ead17b94ac97f",
+        "metadata": null,
+        "data": {
+          "full_url": "https://directus.thegovlab.com/uploads/odpl-incubator/originals/df91a492-3e39-408e-8fc0-3481af82a9b8.jpg",
+          "url": "/img/df91a492-3e39-408e-8fc0-3481af82a9b8.jpg",
+          "thumbnails": [
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/lnxnwf1ho34oo8ck?key=directus-small-crop",
+              "relative_url": "/odpl-incubator/assets/lnxnwf1ho34oo8ck?key=directus-small-crop",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/lnxnwf1ho34oo8ck?key=directus-small-contain",
+              "relative_url": "/odpl-incubator/assets/lnxnwf1ho34oo8ck?key=directus-small-contain",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/lnxnwf1ho34oo8ck?key=directus-medium-crop",
+              "relative_url": "/odpl-incubator/assets/lnxnwf1ho34oo8ck?key=directus-medium-crop",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/lnxnwf1ho34oo8ck?key=directus-medium-contain",
+              "relative_url": "/odpl-incubator/assets/lnxnwf1ho34oo8ck?key=directus-medium-contain",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/lnxnwf1ho34oo8ck?key=directus-large-crop",
+              "relative_url": "/odpl-incubator/assets/lnxnwf1ho34oo8ck?key=directus-large-crop",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/lnxnwf1ho34oo8ck?key=directus-large-contain",
+              "relative_url": "/odpl-incubator/assets/lnxnwf1ho34oo8ck?key=directus-large-contain",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/lnxnwf1ho34oo8ck?key=thumbnail",
+              "relative_url": "/odpl-incubator/assets/lnxnwf1ho34oo8ck?key=thumbnail",
+              "dimension": "200x200",
+              "width": 200,
+              "height": 200
+            }
+          ],
+          "embed": null
+        }
+      },
+      "feature": true
+    },
+    {
+      "id": 4,
+      "status": "published",
+      "title": "Data incubator invites cities to think like start-ups",
+      "description": "A new programme at New York University’s GovLab will apply the start-up incubator model for helping entrepreneurs to grow companies to 'intrapreneurs' working on data projects in cities.",
+      "url": "https://cities-today.com/data-incubator-invites-cities-to-think-like-start-ups/",
+      "thumbnail": {
+        "id": 31,
+        "storage": "local",
+        "private_hash": "nigsoxxqq1w4c8cg",
+        "filename_disk": "bf1e485a-1e56-49d2-a775-5e651f53eff5.jpeg",
+        "filename_download": "Data-collaboration-dreamstime_s_182676408.jpeg",
+        "title": "Data Collaboration Dreamstime S 182676408",
+        "type": "image/jpeg",
+        "uploaded_by": 2,
+        "uploaded_on": "2021-09-13T19:49:09+00:00",
+        "charset": "binary",
+        "filesize": 366058,
+        "width": 800,
+        "height": 533,
+        "duration": 0,
+        "embed": null,
+        "folder": null,
+        "description": "",
+        "location": "",
+        "tags": [],
+        "checksum": "6206d2917e19f1ee83bf01c250a063f8",
+        "metadata": null,
+        "data": {
+          "full_url": "https://directus.thegovlab.com/uploads/odpl-incubator/originals/bf1e485a-1e56-49d2-a775-5e651f53eff5.jpeg",
+          "url": "/img/bf1e485a-1e56-49d2-a775-5e651f53eff5.jpeg",
+          "thumbnails": [
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/nigsoxxqq1w4c8cg?key=directus-small-crop",
+              "relative_url": "/odpl-incubator/assets/nigsoxxqq1w4c8cg?key=directus-small-crop",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/nigsoxxqq1w4c8cg?key=directus-small-contain",
+              "relative_url": "/odpl-incubator/assets/nigsoxxqq1w4c8cg?key=directus-small-contain",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/nigsoxxqq1w4c8cg?key=directus-medium-crop",
+              "relative_url": "/odpl-incubator/assets/nigsoxxqq1w4c8cg?key=directus-medium-crop",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/nigsoxxqq1w4c8cg?key=directus-medium-contain",
+              "relative_url": "/odpl-incubator/assets/nigsoxxqq1w4c8cg?key=directus-medium-contain",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/nigsoxxqq1w4c8cg?key=directus-large-crop",
+              "relative_url": "/odpl-incubator/assets/nigsoxxqq1w4c8cg?key=directus-large-crop",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/nigsoxxqq1w4c8cg?key=directus-large-contain",
+              "relative_url": "/odpl-incubator/assets/nigsoxxqq1w4c8cg?key=directus-large-contain",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/nigsoxxqq1w4c8cg?key=thumbnail",
+              "relative_url": "/odpl-incubator/assets/nigsoxxqq1w4c8cg?key=thumbnail",
+              "dimension": "200x200",
+              "width": 200,
+              "height": 200
+            }
+          ],
+          "embed": null
+        }
+      },
+      "feature": false
+    },
+    {
+      "id": 5,
+      "status": "published",
+      "title": "EXCLUSIVE: Unlocking Citizen-centric Smart Cities in Asia",
+      "description": "The Open Data Policy Lab—an initiative by The GovLab and Microsoft—has recently established the City Incubator, a first-of-its-kind program to support data innovations in cities.",
+      "url": "https://opengovasia.com/exclusive-unlocking-citizen-centric-smart-cities-in-asia/",
+      "thumbnail": {
+        "id": 32,
+        "storage": "local",
+        "private_hash": "94tmhoijtgkk8kc4",
+        "filename_disk": "43a9bc37-85ea-4d16-85f2-dcd198497a81.jpg",
+        "filename_download": "Webp.net-resizeimage-96.jpg",
+        "title": "Webp.net Resizeimage 96",
+        "type": "image/jpeg",
+        "uploaded_by": 2,
+        "uploaded_on": "2021-09-13T19:53:29+00:00",
+        "charset": "binary",
+        "filesize": 213240,
+        "width": 1270,
+        "height": 710,
+        "duration": 0,
+        "embed": null,
+        "folder": null,
+        "description": "",
+        "location": "",
+        "tags": [],
+        "checksum": "012d67c3db07ee05cc042d10ef3e788a",
+        "metadata": null,
+        "data": {
+          "full_url": "https://directus.thegovlab.com/uploads/odpl-incubator/originals/43a9bc37-85ea-4d16-85f2-dcd198497a81.jpg",
+          "url": "/img/43a9bc37-85ea-4d16-85f2-dcd198497a81.jpg",
+          "thumbnails": [
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/94tmhoijtgkk8kc4?key=directus-small-crop",
+              "relative_url": "/odpl-incubator/assets/94tmhoijtgkk8kc4?key=directus-small-crop",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/94tmhoijtgkk8kc4?key=directus-small-contain",
+              "relative_url": "/odpl-incubator/assets/94tmhoijtgkk8kc4?key=directus-small-contain",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/94tmhoijtgkk8kc4?key=directus-medium-crop",
+              "relative_url": "/odpl-incubator/assets/94tmhoijtgkk8kc4?key=directus-medium-crop",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/94tmhoijtgkk8kc4?key=directus-medium-contain",
+              "relative_url": "/odpl-incubator/assets/94tmhoijtgkk8kc4?key=directus-medium-contain",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/94tmhoijtgkk8kc4?key=directus-large-crop",
+              "relative_url": "/odpl-incubator/assets/94tmhoijtgkk8kc4?key=directus-large-crop",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/94tmhoijtgkk8kc4?key=directus-large-contain",
+              "relative_url": "/odpl-incubator/assets/94tmhoijtgkk8kc4?key=directus-large-contain",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/94tmhoijtgkk8kc4?key=thumbnail",
+              "relative_url": "/odpl-incubator/assets/94tmhoijtgkk8kc4?key=thumbnail",
+              "dimension": "200x200",
+              "width": 200,
+              "height": 200
+            }
+          ],
+          "embed": null
+        }
+      },
+      "feature": true
+    },
+    {
+      "id": 6,
+      "status": "published",
+      "title": "Announcing the Open Data Policy Lab's City Incubator",
+      "description": "A program that helps public intrapreneurs within cities around the world to develop their data innovation ideas into reality by providing dedicated support across a 6 month period.",
+      "url": "https://opendatapolicylab.org/articles/city-incubator-announcing-the-open-data-policy-labs-city-incubator/index.html",
+      "thumbnail": {
+        "id": 33,
+        "storage": "local",
+        "private_hash": "8yg9leb5pwws8w04",
+        "filename_disk": "dff90ec7-8ac2-48c6-a92e-b947f83847ac.jpeg",
+        "filename_download": "7a7b605c-8067-43b4-b3f7-a538718905d8.jpeg",
+        "title": "7a7b605c 8067 43b4 B3f7 A538718905d8",
+        "type": "image/jpeg",
+        "uploaded_by": 2,
+        "uploaded_on": "2021-09-13T19:57:27+00:00",
+        "charset": "binary",
+        "filesize": 1371188,
+        "width": 4100,
+        "height": 2727,
+        "duration": 0,
+        "embed": null,
+        "folder": null,
+        "description": "",
+        "location": "",
+        "tags": [],
+        "checksum": "3df97f27ee5b46f29014e937f75b9a02",
+        "metadata": null,
+        "data": {
+          "full_url": "https://directus.thegovlab.com/uploads/odpl-incubator/originals/dff90ec7-8ac2-48c6-a92e-b947f83847ac.jpeg",
+          "url": "/img/dff90ec7-8ac2-48c6-a92e-b947f83847ac.jpeg",
+          "thumbnails": [
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/8yg9leb5pwws8w04?key=directus-small-crop",
+              "relative_url": "/odpl-incubator/assets/8yg9leb5pwws8w04?key=directus-small-crop",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/8yg9leb5pwws8w04?key=directus-small-contain",
+              "relative_url": "/odpl-incubator/assets/8yg9leb5pwws8w04?key=directus-small-contain",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/8yg9leb5pwws8w04?key=directus-medium-crop",
+              "relative_url": "/odpl-incubator/assets/8yg9leb5pwws8w04?key=directus-medium-crop",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/8yg9leb5pwws8w04?key=directus-medium-contain",
+              "relative_url": "/odpl-incubator/assets/8yg9leb5pwws8w04?key=directus-medium-contain",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/8yg9leb5pwws8w04?key=directus-large-crop",
+              "relative_url": "/odpl-incubator/assets/8yg9leb5pwws8w04?key=directus-large-crop",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/8yg9leb5pwws8w04?key=directus-large-contain",
+              "relative_url": "/odpl-incubator/assets/8yg9leb5pwws8w04?key=directus-large-contain",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/8yg9leb5pwws8w04?key=thumbnail",
+              "relative_url": "/odpl-incubator/assets/8yg9leb5pwws8w04?key=thumbnail",
+              "dimension": "200x200",
+              "width": 200,
+              "height": 200
+            }
+          ],
+          "embed": null
+        }
+      },
+      "feature": false
+    },
+    {
+      "id": 7,
+      "status": "published",
+      "title": "Global city data projects selected for inaugural NYU incubator",
+      "description": "The Open Data Policy Lab within New York University’s GovLab has selected ten participants for its first City Incubator programme. ",
+      "url": "https://cities-today.com/global-city-data-projects-selected-for-inaugural-nyu-incubator/",
+      "thumbnail": {
+        "id": 52,
+        "storage": "local",
+        "private_hash": "2154pg4yzqg0osss",
+        "filename_disk": "693e843c-6a86-4ec6-9511-bfcc420a84f9.jpeg",
+        "filename_download": "Cities Today.jpeg",
+        "title": "Cities Today",
+        "type": "image/jpeg",
+        "uploaded_by": 2,
+        "uploaded_on": "2021-09-20T17:10:52+00:00",
+        "charset": "binary",
+        "filesize": 65373,
+        "width": 640,
+        "height": 427,
+        "duration": 0,
+        "embed": null,
+        "folder": null,
+        "description": "",
+        "location": "",
+        "tags": [],
+        "checksum": "28d1c0f23717294eaab06faf4d6f7a6d",
+        "metadata": null,
+        "data": {
+          "full_url": "https://directus.thegovlab.com/uploads/odpl-incubator/originals/693e843c-6a86-4ec6-9511-bfcc420a84f9.jpeg",
+          "url": "/img/693e843c-6a86-4ec6-9511-bfcc420a84f9.jpeg",
+          "thumbnails": [
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/2154pg4yzqg0osss?key=directus-small-crop",
+              "relative_url": "/odpl-incubator/assets/2154pg4yzqg0osss?key=directus-small-crop",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/2154pg4yzqg0osss?key=directus-small-contain",
+              "relative_url": "/odpl-incubator/assets/2154pg4yzqg0osss?key=directus-small-contain",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/2154pg4yzqg0osss?key=directus-medium-crop",
+              "relative_url": "/odpl-incubator/assets/2154pg4yzqg0osss?key=directus-medium-crop",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/2154pg4yzqg0osss?key=directus-medium-contain",
+              "relative_url": "/odpl-incubator/assets/2154pg4yzqg0osss?key=directus-medium-contain",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/2154pg4yzqg0osss?key=directus-large-crop",
+              "relative_url": "/odpl-incubator/assets/2154pg4yzqg0osss?key=directus-large-crop",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/2154pg4yzqg0osss?key=directus-large-contain",
+              "relative_url": "/odpl-incubator/assets/2154pg4yzqg0osss?key=directus-large-contain",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/2154pg4yzqg0osss?key=thumbnail",
+              "relative_url": "/odpl-incubator/assets/2154pg4yzqg0osss?key=thumbnail",
+              "dimension": "200x200",
+              "width": 200,
+              "height": 200
+            }
+          ],
+          "embed": null
+        }
+      },
+      "feature": true
+    },
+    {
+      "id": 8,
+      "status": "published",
+      "title": "Diversity dashboard in development with international cohort",
+      "description": "“We want to have a visual place online to remind residents of our diversity objectives, and track our progress in real time.”",
+      "url": "https://winnipeg.ca/ourstories/2021/211012.stm",
+      "thumbnail": {
+        "id": 54,
+        "storage": "local",
+        "private_hash": "ph3l7c4t8r48kcsk",
+        "filename_disk": "632b08e3-6f13-4ad1-90a7-4aafd304dffe.jpeg",
+        "filename_download": "Winnipeg.jpeg",
+        "title": "Winnipeg",
+        "type": "image/jpeg",
+        "uploaded_by": 2,
+        "uploaded_on": "2021-12-20T22:10:14+00:00",
+        "charset": "binary",
+        "filesize": 442381,
+        "width": 808,
+        "height": 454,
+        "duration": 0,
+        "embed": null,
+        "folder": null,
+        "description": "",
+        "location": "",
+        "tags": [],
+        "checksum": "8fc9d665ed0106f36fd6569105a78469",
+        "metadata": null,
+        "data": {
+          "full_url": "https://directus.thegovlab.com/uploads/odpl-incubator/originals/632b08e3-6f13-4ad1-90a7-4aafd304dffe.jpeg",
+          "url": "/img/632b08e3-6f13-4ad1-90a7-4aafd304dffe.jpeg",
+          "thumbnails": [
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/ph3l7c4t8r48kcsk?key=directus-small-crop",
+              "relative_url": "/odpl-incubator/assets/ph3l7c4t8r48kcsk?key=directus-small-crop",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/ph3l7c4t8r48kcsk?key=directus-small-contain",
+              "relative_url": "/odpl-incubator/assets/ph3l7c4t8r48kcsk?key=directus-small-contain",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/ph3l7c4t8r48kcsk?key=directus-medium-crop",
+              "relative_url": "/odpl-incubator/assets/ph3l7c4t8r48kcsk?key=directus-medium-crop",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/ph3l7c4t8r48kcsk?key=directus-medium-contain",
+              "relative_url": "/odpl-incubator/assets/ph3l7c4t8r48kcsk?key=directus-medium-contain",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/ph3l7c4t8r48kcsk?key=directus-large-crop",
+              "relative_url": "/odpl-incubator/assets/ph3l7c4t8r48kcsk?key=directus-large-crop",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/ph3l7c4t8r48kcsk?key=directus-large-contain",
+              "relative_url": "/odpl-incubator/assets/ph3l7c4t8r48kcsk?key=directus-large-contain",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/odpl-incubator/assets/ph3l7c4t8r48kcsk?key=thumbnail",
+              "relative_url": "/odpl-incubator/assets/ph3l7c4t8r48kcsk?key=thumbnail",
+              "dimension": "200x200",
+              "width": 200,
+              "height": 200
+            }
+          ],
+          "embed": null
+        }
+      },
+      "feature": false
+    }
+  ],
+  "public": true
+}
